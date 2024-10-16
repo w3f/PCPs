@@ -22,8 +22,7 @@ The goal is to have a standard contract interface that allows tokens deployed on
 ## Implementations
 Examples of implementations:
 
-- [Implementation with the OpenBrush library](https://github.com/Brushfam/openbrush-contracts/blob/main/contracts/src/token/psp34/psp34.rs), written in [ink!](https://github.com/paritytech/ink).
-- [Implementation in pure ink!](https://github.com/Cardinal-Cryptography/PSP34]), by [Cardinal Cryptography](http://cardinal.co).
+- [OpenBrush](https://github.com/Brushfam/openbrush-contracts/blob/main/contracts/src/token/psp34/psp34.rs), written in [ink!](https://github.com/paritytech/ink).
 
 ## Motivation for having a standard separate from ERC-721
 Due to the different nature of WebAssembly smart contracts and the difference between EVM and the [`contracts` pallet](https://github.com/paritytech/substrate/tree/master/frame/contracts) in Substrate, this standard proposal has specific rules and methods,
