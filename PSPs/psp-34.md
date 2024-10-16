@@ -422,7 +422,7 @@ Selector: `0x3bcfb511` - first 4 bytes of `blake2b_256("PSP34Enumerable::owners_
 ```
 
 ##### **token_by_index**(index: u128) -> Option<Id>
-Selector: `0xcd0340d0` - first 4 bytes of `blake2b_256("PSP37Enumerable::owners_token_by_index")`
+Selector: `0xcd0340d0` - first 4 bytes of `blake2b_256("PSP34Enumerable::token_by_index")`
 ```json
 {
   "args": [
